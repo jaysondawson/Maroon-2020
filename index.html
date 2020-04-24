@@ -115,7 +115,7 @@
             </section>
         </div>
        
-            <section class="wrapper__1366 bestsellers">
+            <section class="wrapper__1366">
                 <div class="bestsellers__wrapper">
                     <div class="bestsellers__header">
                         <h2>Бестселлеры</h2>
@@ -123,46 +123,52 @@
                         <a href="catalog.html" class="bestsellers__watch-all">Смотреть все</a>
                     </div>
                     <ul class="bestsellers__list">
-                        <li>
+                        <li class="bestsellers__item">
                             <a href="card.html">
                                 <img src="img/high.jpg" width="230" height="312" alt="Крем для лица High">
-                                <h3>High</h3>
-                                <p>крем для лица</p>
-                                <span>Подробнее</span> 
+                                <div class="bestsellers__item__header">
+                                    <h3>High</h3>
+                                    <p>крем для лица</p>
+                                    <span>Подробнее</span> 
+                                </div>
                             </a>
                         </li>
                         <li class="bestsellers__item">
                             <a href="card.html">
                                 <img src="img/rest.jpg" width="230" height="312" alt="Минеральная пудра Rest">
-                                <h3>Rest</h3>
-                                <p>минеральная пудра</p>
-                                <span>Подробнее</span>  
+                                <div class="bestsellers__item__header">
+                                    <h3>Rest</h3>
+                                    <p>минеральная пудра</p>
+                                    <span>Подробнее</span> 
+                                </div>
                             </a> 
                         </li>
                         <li class="bestsellers__item">
                             <a href="card.html">
                                 <img src="img/rose.jpg" width="230" height="312" alt="Крем для лица Rose">
-                                <h3>Rose</h3>
-                                <p>крем для лица</p>
-                                <span>Подробнее</span>  
+                                <div class="bestsellers__item__header">
+                                    <h3>Rose</h3>
+                                    <p>крем для лица</p>
+                                    <span>Подробнее</span> 
+                                </div>
                             </a> 
                         </li>
                         <li class="bestsellers__item">
                             <a href="card.html">
                                 <img src="img/milk.jpg" width="230" height="312" alt="Масло для тела Milk">
-                                <h3>Milk</h3>
-                                <p>масло для тела</p>
-                                <span>Подробнее</span>  
+                                <div class="bestsellers__item__header">
+                                    <h3>Milk</h3>
+                                    <p>масло для тела</p>
+                                    <span>Подробнее</span> 
+                                </div>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="bestsellers__buttons">
-                    <div class="bestsellers__back">
-                       <button type="button">Назад</button> 
-                    </div>
-                    <div>
-                        <button type="button" class="bestsellers__forward">Вперёд</button>
+                <div class="bestsellers__buttons__wrapper">
+                    <div class="bestsellers__buttons">
+                        <button type="button" class="button__back" aria-label="Назад" ></button>
+                        <button type="button" class="button__forward"aria-label="Вперёд"></button>
                     </div>
                 </div>
             </section>
@@ -178,13 +184,15 @@
         </div>
         <div class="wrapper__1366">
             <section class="individual__wrapper">
-                <div class="individual__header">
-                    <h2>Индивидуальный уход</h2>
-                    <p>Не всегда очевидно, какие элементы и минералы необходимы коже,         а многочисленные эксперименты     с разными средствами только ухудшают ее качество.
-                    Заполните анкету, и мы подберем уход, подходящий именно вам, учитывая ваш образ жизни, место жительства и другие факторы. </p>
-                    <button class="individual__fill__form">Заполнить анкету</button>
+                <div class="individual">
+                    <div class="individual__header">
+                        <h2>Индивидуальный уход</h2>
+                        <p>Не всегда очевидно, какие элементы и минералы необходимы коже, а многочисленные эксперименты с разными средствами только ухудшают ее качество.</p>
+                        <p>Заполните анкету, и мы подберем уход, подходящий именно вам, учитывая ваш образ жизни, место жительства и другие факторы. </p>
+                        <button class="individual__fill__form">Заполнить анкету</button>
+                    </div>
+                    <img src="img/main-3.jpg" class="individual__img" width="670" height="451" alt="Индивидуальный уход изображение">
                 </div>
-                <img src="img/main-3.jpg" width="670" height="451" alt="Индивидуальный уход изображение">
             </section>
         </div>
         <div class="wrapper__1366 about__us">
