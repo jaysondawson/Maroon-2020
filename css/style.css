@@ -192,8 +192,9 @@ a {
 
 }
 
+/*Главная. Баннер. Банер*/
 
-.nav__wrapper::before {
+.nav__main__wrapper::before {
     content: "";
 
     position: absolute;
@@ -211,7 +212,8 @@ a {
 }
 
 
-.nav__wrapper {
+.nav__wrapper,
+.nav__main__wrapper {
     display: flex;
     align-items: center;
 
