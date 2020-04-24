@@ -67,6 +67,8 @@ h3 {
     font-family: "Raleway", "Arial", sans-serif;
     
 }
+
+body,
 ul,
 h1,
 h2,
@@ -93,12 +95,12 @@ address {
     font-weight: bold;
 }
 
-.h1-main {
+.banner__text h1 {
     text-transform: uppercase;
     font-size: 58px;
 }
 
- .about-us {
+.about-us {
     font-family: "Raleway", "Arial", sans-serif;
     font-weight: 600;
     font-size: 32px;
@@ -223,35 +225,79 @@ a {
 
 .banner {
     display: flex;
+
+    height: 464px;
+
+    margin-top: 31px;
+    margin-bottom: 55px;
     
 }
-
 
 .banner__facecare {
     width: 330px;
 
     order: 0;
+}
+
+.banner__facecare a {
+    height: 464px;
+}
+
+.banner__facecare__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: inherit;
+    height: 42px;
+
+    background-color: khaki;
 
 }
 
-
 .banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     width: 274px;
+    height: 186px;
+
     margin-left: 48px;
     margin-right: 48px;
 
     order: 1;
+
+    background-color: khaki;
+}
+
+.banner__text h1 {
+    text-align: center;
+
+    background-color: lightcoral;
+}
+
+.banner__text p {
+    text-align: center;
+
+    margin-top: 15px;
+    background-color: lightcoral;
+
 }
 
 .banner__button {
     line-height: 37px;
-    padding-left: 27px;
-    padding-right: 27px;
-    
 
     width: 141px;
     min-height: 41px;
+
+    padding-left: 27px;
+    padding-right: 27px;
     
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
 
     border: 1px solid #B3BAC1;
     box-sizing: border-box;
