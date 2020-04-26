@@ -638,22 +638,39 @@ a {
 .about__us {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    height: 433px;
 }
 
-.about-us__header {
-    width: 761px;
+.about-us__wrapper {
+    width: 813px;
     height: 193px;
-
-    margin-top: 120px;
-    margin-bottom: 120px;
 
     background-color: goldenrod;
 }
 
-.about-us__history {
+.about-us__header {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    text-align: center;
+
+    /*width: 761px;*/
+
+    background-color: khaki;
+}
+
+.about-us__button {
+    font-size: 16px;
     line-height: 37px;
+     
     padding-left: 26px;
     padding-right: 26px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
 
     width: 163px;
     min-height: 41px;
@@ -664,33 +681,51 @@ a {
     border-radius: 2px; 
 }
 
+.about-us__button:hover {
+    border-color: #122947;
+}
+
 .join-us__wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
  
     width: 1170px;
-    min-height: 446px;
+    height: 466px;
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90px;
+    margin-top: 176px;
     margin-bottom: 90px;
    
 
     background-color: goldenrod;
 }
 
+.about-us__img {
+    height: 466px;
+    width: 699px;
+}
 
 .join-us__header {
-    width: 381px;
+    width: 340px;
     height: 173px;
 
-    margin: auto;
+    margin-left: 71px;
 
     background-color: khaki;
 }
 
-.join-us__subscribe{ 
+.join-us__header h2{
+    background-color: #8A2BE2;
+}
+
+.join-us__header p {
+    margin-top: 25px;
+
+    background-color: aqua;
+}
+.join-us__button { 
     line-height: 37px;
     padding-left: 33px;
     padding-right: 33px;
@@ -698,6 +733,7 @@ a {
     width: 170px;
     min-height: 41px;
     
+    margin-top: 26px;
 
     border: 1px solid #B3BAC1;
     background-color: transparent;
@@ -705,7 +741,7 @@ a {
     border-radius: 2px; 
 }
 
-.join-us__subscribe:hover {
+.join-us__button:hover {
     cursor: pointer;
     border-color: #122947;
 }
