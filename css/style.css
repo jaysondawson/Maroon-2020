@@ -1156,6 +1156,31 @@ footer {
 .card__text {
     background-color: khaki;
 }
+
+.add-to-card {
+    line-height: 37px;
+    padding-left: 21px;
+    padding-right: 21px;
+    
+    width: 200px;
+    height: 41px;
+    
+
+    border: 1px solid #B3BAC1;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 2px; 
+}
+
+.add-to-card:hover {
+    border-color: #122947;
+}
+
+.card__price {
+    font-family: "Mplus", "Arial", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
 /*
 button {
     line-height: 37px;

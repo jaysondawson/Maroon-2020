@@ -138,70 +138,95 @@
                             </ul>
                         </fieldset>
                         <div>
-                            <span>890 ₽</span>
-                            <button type="submit">Добавить в корзину</button>
+                            <span class="card__price">890 ₽</span>
+                            <button class="add-to-card" type="submit">Добавить в корзину</button>
                         </div>
                     </form>
                 </div>
             </section>
         </div>
-        <section>
-            <h2>Вам также может понравиться</h2>
-            <!--
-            Clean
-            Lotos  
-            Lavender
-            Coconut
-            -->
-            <div>
-                <a href="#">
-                    <h2>Clean</h2>
-                    <span>490 ₽</span>
-                    <p>маска для лица</p>
-                    <span>100g</span>
-                </a>
+        <section class="recently__seen">
+            <div class="recently__seen__header__wrapper">
+                <h2>Вам также может понравиться</h2>
             </div>
-            <div>
-                <a href="#">
-                    <h2>Lotos</h2>
-                    <span>890 ₽</span>
-                    <p>маска для лица</p>
-                    <span>50ml</span>
-                </a>
+            <div class="recently__seen__list">
+                <div class="recently__seen__item">
+                    <a href="card.html">
+                        <div class="catalog__text__holder">
+                            <div class="catalog__item__header">
+                                <h2>Clean</h2>
+                                <span>490 ₽</span>
+                            </div>
+                            <div class="catalog__item__description">
+                                <p>маска для лица</p>
+                                <span>100g</span>
+                            </div>
+                        </div>
+                        <img src="img/clean-catalog.jpg" width="270" height="350" alt="Clean маска для лица">
+                    </a>
+                </div>
+                <div class="recently__seen__item">
+                    <a href="card.html">
+                        <div class="catalog__text__holder">
+                            <div class="catalog__item__header">
+                                <h2>Lotos</h2>
+                                <span>890 ₽</span>
+                            </div>
+                            <div class="catalog__item__description">
+                                <p>маска для лица</p>
+                                <span>50ml</span>
+                            </div>
+                        </div>
+                        <img src="img/lotos-catalog.jpg" width="270" height="350" alt="Lavender мыло ручной работы">
+                    </a>
+                </div>
+                <div class="recently__seen__item">
+                    <a href="card.html">
+                        <div class="catalog__text__holder">
+                            <div class="catalog__item__header">
+                                <h2>Lavender</h2>
+                                <span>290 ₽</span>
+                            </div>
+                            <div class="catalog__item__description">
+                                <p>мыло ручной работы</p>
+                                <span>50g</span>
+                            </div>
+                        </div>
+                        <img src="img/lavender-catalog.jpg" width="270" height="350" alt="Lavender мыло ручной работы">
+                    </a>
+                </div>
+                <div class="recently__seen__item">
+                    <a href="card.html">
+                        <div class="catalog__text__holder">
+                            <div class="catalog__item__header">
+                                <h2>Coconut</h2>
+                                <span>990 ₽</span>
+                            </div>
+                            <div class="catalog__item__description">
+                                <p>масло для тела</p>
+                                <span>300ml</span>
+                            </div>
+                        </div>
+                        <img src="img/coconut-catalog.jpg" width="270" height="350" alt="Coconut масло для тела">
+                    </a>
+                </div>
             </div>
-            <div>
-                <a href="#">
-                    <h2>Lavender</h2>
-                    <span>290 ₽</span>
-                    <p>мыло ручной работы</p>
-                    <span>50g</span>
-                </a>
+            <div class="recently__seen__pages__wrapper">
+                <div class="page__wrapper">
+                    <span>
+                        <a href="#" aria-label="Первая страница">1</a>
+                    </span>
+                    <div class="page__separator"></div>
+                    <span>
+                        <a href="#" aria-label="Третья страница (последняя)">3</a>
+                    </span>
+                </div>
+                <div class="recently__seen__buttons">
+                    <button type="button" class="button__back" aria-label="Назад" ></button>
+                    <button type="button" class="button__forward"aria-label="Вперёд"></button>
+                </div>
             </div>
-            <div>
-                <a href="#">
-                    <h2>Coconut</h2>
-                    <span>990 ₽</span>
-                    <p>масло для тела</p>
-                    <span>300ml</span>
-                </a>
-            </div>
-            <div>
-                <span>
-                    <a href="#" aria-label="Первая страница">1</a>
-                </span>
-                <span>
-                    <a href="#" aria-label="Третья страница (последняя)">3</a>
-                </span>
-            </div>
-            <button type="button">Назад</button>
-            <svg class="arrow-icon-left">
-                <use xlink:href="#arrow-icon-left"></use>
-            </svg>    
-            <button type="button">Вперёд</button>
-            <svg class="arrow-icon">
-                <use xlink:href="#arrow-icon"></use>
-            </svg>
-        </section>         
+        </section>        
         
     </main>
     <footer>
