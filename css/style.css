@@ -1137,6 +1137,25 @@ footer {
 .recently__seen__item:nth-child(4n) {
     margin-right: 0;
 }
+
+
+/*СЕТКИ КАРТОЧКИ ТОВАРА*/
+
+.card {
+    display: flex;
+
+    width: 1170px;
+    height: 942px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: goldenrod;
+}
+
+.card__text {
+    background-color: khaki;
+}
 /*
 button {
     line-height: 37px;
